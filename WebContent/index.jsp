@@ -5,11 +5,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Hello World</title>
+        <title class="text-center">Welcome To Struts</title>
+        <h1>Team Sprinters</h1>
+        <h3>Gurpreet Singh, Harkamal Grewal, Naomi Campbell, Steven Leiker, Thomas Wilson</h3>
+        <style>
+        body {
+        background-color:beige;
+        }
+        </style>
     </head>
-    <body>
+    <body>    	
         <s:form action="HelloWorld" >
-            <s:textfield name="userName" label="User Name" />
+            <s:textfield name="userName" label="Please enter your name" />
             <s:submit />
         </s:form>
     </body>
